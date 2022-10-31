@@ -26,7 +26,7 @@ h1 {
 h1:before {
     content: "";
     display: block;
-    background: url("/assets/images/bamboo.svg");
+    background: url("/online-zoo/assets/images/bamboo.svg");
     width: 12px;
     height: 21px;
     position: absolute;
@@ -366,7 +366,7 @@ p {
 .wrapper__promo {
     display: flex;
     justify-content: right;
-    background-image: url(/assets/images/giantpanda.jpg);
+    background-image: url(/online-zoo/assets/images/giantpanda.jpg);
     background-size: cover;
     height: 780px;
     max-width: 100%;
