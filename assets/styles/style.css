@@ -176,6 +176,7 @@ h1:before {
     letter-spacing: 0em;
     text-align: left;
     color: #333B41;
+    padding-left: 99px;
    
 }
 
@@ -216,7 +217,7 @@ h1:before {
     margin-top: -2px;
 }
 
-p {
+.small-text-thign {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -224,6 +225,9 @@ p {
     letter-spacing: 0em;
     text-align: left;
     color: #333B41;
+    padding-left: 99px;
+    padding-right: 198px;
+    margin-bottom: 60px;
 }
 
 .payment-description {
@@ -243,6 +247,8 @@ p {
     letter-spacing: 0em;
     text-align: left;
     color: #333B41;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .testimonials {
@@ -284,6 +290,8 @@ p {
     letter-spacing: 0em;
     text-align: left;
     color: #333B41;
+    padding-left: 99px;
+    padding-right:58px ;
 }
 
 .text-of-name {
@@ -470,7 +478,7 @@ p {
     border: 1px solid #FDFDFF85;
     border-radius: 20px;
     background: #FDFDFF85;
-    
+       
 }
   
 
@@ -496,10 +504,40 @@ p {
 .layout-5-column {
     display: flex;
     flex-direction: row;
+    justify-content:space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+       
+ 
+.border-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+    width: 168px;
+    height: 168px;
+    background-color: #FFFFFF;
 }
 
-.step-of-payment {
-    width: 10%;
+.payment-payment_card {
+   padding: 54px 30px;
+
+}
+
+.payment-description{
+     font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#333B41;
+}
+
+.payment-arrow {
+padding: 50px 30px;
 }
 
 .layout-4-column {
