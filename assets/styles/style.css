@@ -568,7 +568,7 @@ padding: 50px 30px;
 }
 
 .cloud-name {
-    display: flex;
+    display: flex;text-of-name
     flex-direction: row;
  }
  
@@ -594,6 +594,26 @@ padding: 50px 30px;
     border: 0 solid transparent;
     }
 
+.section-decoration-bottom {
+    position: relative;
+    padding-right: 0 ;
+}
+
+
   .social-media {
     width: 40%;
+}
+
+footer {
+background-color: #000000;
+
+}
+
+.footer_logo {
+position: relative;
+width: 82px;
+height: 53px;
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+
 }
