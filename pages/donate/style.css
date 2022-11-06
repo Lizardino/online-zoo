@@ -31,6 +31,21 @@ body {
     list-style: none;
 
 }
+
+.designer-info_name {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.designer-info {
+    margin-left: 120px;
+}
+
 .logo {
     width: 82px;
     height: 52px;
@@ -41,6 +56,15 @@ body {
 .navigation {
     display: flex;
     list-style: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: none;
 }
 
 .navigation__link a {
@@ -79,6 +103,21 @@ h1:before {
     left: 10px;
 }
 
+.Petstory {
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 3.55px 4.75px;
+}
+
+
+
 .navigation__link {
     font-family: Roboto;
     font-size: 16px;
@@ -86,7 +125,8 @@ h1:before {
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF
+    color: #FFFFFF;
+    padding-bottom: 10px;
 }
 
 .header__copyright {
@@ -113,6 +153,7 @@ h1:before {
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .main_text-text {
@@ -122,8 +163,8 @@ h1:before {
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    color:#FFFFFF ;
-       
+    color: #FFFFFF;
+    margin-bottom: 40px;
 }
 
 .main_text-donate {
@@ -133,7 +174,8 @@ h1:before {
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
-     color:#FE9013;
+    color: #FE9013;
+    margin-bottom: 60px;
 }
 
 .pick_friend-header {
@@ -143,7 +185,8 @@ h1:before {
     line-height: 58px;
     letter-spacing: 0em;
     text-align: center;
-    color:#FE9013;
+    color: #FE9013;
+    margin-bottom: 20px;
 }
 
 .pick_friend-info {
@@ -153,7 +196,9 @@ h1:before {
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
-    counter-reset:#333B41;
+    counter-reset: #333B41;
+    margin-bottom: 60px;
+    margin-left: 92px;
 }
 
 .amount {
@@ -163,49 +208,79 @@ h1:before {
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-     color:#000000 ;
+    color: #000000;
+    margin: 96px;
+    margin-bottom: 10px;
 }
 
 .amount-dollars {
-font-family: Roboto;
-font-size: 26px;
-font-weight: 500;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
-color: #333B41;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333B41;
+}
+
+.amount-dollars.orange {
+    color: #F9804B;
 }
 
 .number-input {
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color:#929699;
-
-}
-
-#mounthly {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    color:#333B41;
+    color: #929699;
+
 }
 
-#once {
+.mounthly {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    color:#333B41;
+    color: #333B41;
+    padding-right: 50px;
+
+
 }
+
+.input-mounthly {
+    padding-left: 50px;
+}
+
+.input-mounthly-lebel {
+    padding-right: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333B41;
+    padding-right: 50px;
+}
+
+
+.once {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333B41;
+    margin-bottom: 30px;
+
+}
+
+
 
 .button_colored {
     font-family: Roboto;
@@ -214,9 +289,9 @@ color:#929699;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
-    color: 
-    #FFFFFF;
+    color:#FFFFFF;
 }
+
 .donation-share {
     font-family: Roboto;
     font-size: 16px;
@@ -225,27 +300,360 @@ color:#929699;
     letter-spacing: 0em;
     text-align: left;
     color: #333B41;
-    ;
+
+}
+
+.slider {
+    display: flex;
+    justify-content: right;
+    background-image: url(/online-zoo/assets/images/panda_bg.jpg);
+    background-size: cover;
+    height: 390px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+section {
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+    height: 1482px;
+    margin-bottom: 0;
+}
+
+.pick_friend_block {
+    border: 1px solid #FDFDFF85;
+    border-radius: 20px;
+    background: #FDFDFF85;
+
+}
+
+.layout-3-column {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+
+}
+
+.panda-diet {
+    margin-left: 345px;
+    margin-right: 50px;
+}
+
+.panda-diet-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #333B41;
+    margin-left: 307px;
+    margin-top: -100px;
+}
+
+.x-logo {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.panda-logo-block {
+    background-color: #FDFDFF85;
+}
+
+.amount-rectangle {
+    margin-left: 92px;
+}
+
+.dots-yellow {
+    margin-left: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 120px;
+    margin-top: -40px;
+}
+
+.grey-rectangle {
+    margin-left: 118px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+.amount-rectangle:hover {
+    cursor: pointer;
+}
+
+.dots-yellow:hover {
+    cursor: pointer;
+}
+
+
+.donations-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: px;
+    margin-left: 100px;
+    padding-right: 92px;
+    margin-bottom: 50px;
+}
+
+.donation-input {
+    justify-content: center;
+    margin-left: 446px;
+    margin-bottom: 31px;
+    position: relative;
+}
+
+.number-input {
+    border: 1px solid #929699;
+    width: 268px;
+    height: 54px;
+    background-color: #FDFDFF85;
+    margin-bottom: 25px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.roller_icon {
+    position: absolute;
+    top: 1381px;
+    nav-left: 360px;
+    margin-left: 359px;
+}
+
+.dollat-iput-block {
+    position: relative;
+}
+
+.dollar-input {
+    position: absolute;
+    margin: -20px;
+    bottom: 64px;
+}
+
+form {
+    margin-bottom: 30px;
+    padding-left: 20px;
+
+
+}
+
+.button_colored {
+    border: 1px solid #F9804B;
+    border-radius: 25px;
+    width: 298px;
+    height: 54px;
+    background-color: #F9804B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.button_colored:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000000;
+    
+}
+
+.column-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-navigation a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 100px;
+    padding-top: 302px;
+    
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.submit-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.social-media a p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.social-media a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.social-media ul {
+    padding: 0;
+    padding-bottom: 5px;
+}
+     
+.social-media li {
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+.social-media span {
+    background-color: #333B41;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    margin: 5px
+
+}
+
+.block-footer-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: -5px;
+}
+
+.logo-footer {
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    margin-bottom:50px ;
+}
+
+.rectangular-colored {
+    width: 298px;
+    height: 54px;
+    color: white;
+    background-color: #F9804B;
+    border-radius:5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+    border: 0 solid transparent;
+    margin-bottom: 44px;
+    }
+
+.rectangular-colored:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.subtitle_email {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+    margin-left: 10px;
+    margin-bottom: 14px;
+}
+
+
+.button_colored_footer {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color:#FFFFFF;
+    height:42px;
+    width: 129px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.button_colored_footer:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.layout-2-row-footer {
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 215px;  
+}
+
+.submit-window {
+    border: 1px solid #FE9013;
+    background-color:#111115;
+    width: 227px;
+    height: 42px;
+    margin-right: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #929699;
 
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    background-color: #000000;
-    
-    }
